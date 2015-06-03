@@ -11,7 +11,12 @@
 <body>
   <div class="container-fluid" ng-controller="HistoryCtrl as history">
     <div class="row-fluid">
-      <div class="col-md-8 history">
+      <div class="col-md-9">
+        <div class="people">
+          <div>Malo</div>
+          <div>Yann Benichou</div>
+        </div>
+        <div class="history">
           <div class="row-fluid">
             <h4 class="col-xs-12">File History {{ history.visibility.states }}</h4>
             <notify-error></notify-error>
@@ -50,8 +55,8 @@
         </div>
       </div><!-- /history -->
 
-      <div class="col-md-4 chat">
-        
+      <div class="col-md-3 chat">
+
       </div>
 
     </div><!-- /row-fluid -->

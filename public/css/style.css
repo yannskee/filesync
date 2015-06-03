@@ -1,3 +1,16 @@
+.people {
+  height: 40px;
+  padding: 10px;
+}
+.people div {
+  display: inline-block;
+  margin-right: 5px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background: rgb(240, 240, 240);
+  padding: 2px;
+}
+
 .row-fluid{
   clear: both;
 }
